@@ -1,5 +1,5 @@
 title:            Brylian Foronda
-description:      "Just another geek blog."
+description:      "Just another geek blog"
 logo:             logo3.png
 disqus_shortname: hmfaysal
 share:            true
@@ -12,7 +12,7 @@ share:            true
 owner:
   name:           Brylian Foronda
   avatar:         hmfaysal.jpg
-  email:          you@email.com
+  # email:          you@email.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
@@ -41,7 +41,7 @@ links:
   - title: Categories
     url: /categories
   - title: About
-    url: /hossain-mohd-faysal
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pacific/Honolulu
