@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /about/index.html
 title: ABOUT BRYLIAN
 tags: [brylian, foronda, bforonda, xibrealix]
 image:
@@ -12,11 +12,11 @@ image:
 
 My name is **Brylian Foronda**, and this is my personal blog.  
 
-I am an alumni of the University of Hawaii at Manoa, with a Bachelors degree in Computer Engineering. I am currently a full-time IT Manager at the [Kaʻanapali Beach Hotel](http://kbhmaui.com) and a part-time Web Application Developer at the [Research Corporation at the University of Hawaii](http://www.rcuh.com/).
+I am a proud alumni of the University of Hawaii at Manoa with a Bachelors degree in Computer Engineering. I am currently a full-time IT Manager at the [Kaʻanapali Beach Hotel](http://kbhmaui.com) and a part-time Web Application Developer at the [Research Corporation at the University of Hawaii](http://www.rcuh.com/).
 
 ### Academic Achievements
- - Associates degree in Electronics and Computer Engineering Technology from University of Hawaii Maui College
- - Bachelors degree in Computer Engineering from University of Hawaii at Manoa
+ - Associates degree in Electronics and Computer Engineering Technology from University of Hawaii Maui College. (May 2009)
+ - Bachelors degree in Computer Engineering from University of Hawaii at Manoa. (Dec. 2012)
 
 ### Web Development Experience
  - ASP.NET Framework and SQL Server
