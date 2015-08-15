@@ -19,16 +19,19 @@ I am a proud alumni of the University of Hawaii at Manoa with a Bachelors degree
  - Bachelors degree in Computer Engineering from University of Hawaii at Manoa. (Dec. 2012)
 
 ### IT Experience
- - Microsoft Enterprise systems
- - Server Virtualization
- - Networking and Firewalls
- - Data Recovery and Storage Area Networks
- 
+ - Microsoft Enterprise Systems
+ - Server Virtualization (VmWare, Hyper-V)
+ - Network and Firewall Security
+ - Disaster Recovery
+ - Storage Area Networks
+
 ### Web Development Experience
  - ASP.NET Framework and SQL Server
+ - Bootstrap, HTML5 and CSS3
+ - Jekyll and Github Pages
  - Wordpress and MySQL
  - Postach.io and Evernote
- - Jekyll and Github Pages
+ - MongoDB and PHP
 
 ___
 
