@@ -45,10 +45,9 @@ HelloWorld.{ED7BA470-8E54-465E-825C-99712043E01C}
 ![Settings](https://dl.dropboxusercontent.com/u/33327425/images/it/godmode2.png)
 
 
-While this may be convenient shortcut, I do not see myself using it as a way of accessing windows configurations. I have become accustumed to the Windows 8 Charms shortcuts (Win + Q, Win + X, etc..). With it, I can immediately access specific control without a touch of the mouse. 
+While this may be a rather convenient shortcut, I do not see myself using it as a way of accessing windows configurations. Mainly because I have become accustumed to the Windows 8 Charms shortcuts (Win + Q, Win + X, etc..). With it, I can immediately access specific control without even a touch of the mouse. 
 
-With Windows 10 being out for a couple of weeks now and given my role as an IT Manager, a 'hack' or tool that I would rather have is a working Remote Server Administration Tool for Windows 
-10! Microsoft, I am patiently waiting - having to remote into the domain controller to manage AD objects and users is so "time consuming"! :P
+With Windows 10 being out for a couple of weeks now and given my role as an IT Manager, a 'hack' or tool that I would definitely rather have is a working Remote Server Administration Tool (RSAT) for Windows 10. Microsoft, I am patiently waiting - having to remote into the domain controller to manage AD objects and users is so time consuming! :P
 
 ##### References:
 
