@@ -14,7 +14,7 @@ owner:
   avatar:         hmfaysal.jpg
   # email:          you@email.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    BELIEVE in yourself, DREAM without fear, LOVE without limits
   # Social networking links used in footer. Update and remove as you like.
   # twitter:        hmfaysal
   facebook:       bryl.foronda
@@ -42,6 +42,9 @@ links:
     url: /categories
   - title: About
     url: /about
+  - title: Resume
+    url: http://resume.brylianforonda.com
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pacific/Honolulu

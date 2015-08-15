@@ -23,3 +23,9 @@ I am an alumni of the University of Hawaii at Manoa, with a Bachelors degree in 
  - Wordpress and MySQL
  - Postach.io and Evernote
  - Jekyll and Github Pages
+
+
+___
+
+ > It’s not that I’m so smart, it’s just that I stay with problems longer. 
+<cite>Albert Einstein</cite>
