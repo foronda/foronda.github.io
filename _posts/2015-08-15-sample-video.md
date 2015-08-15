@@ -1,33 +1,20 @@
 ---
 layout: post
-published: true
-description: ""
-headline: ""
-modified: ""
-categories: null
-tags: ""
-imagefeature: ""
-mathjax: false
-featured: false
-comments: false
-title: Sample Video
----
-
-
----
-layout: post
-type:  video                # ! Important
-title: "Some Title"         # Title of the post
-description: Some description   # Description of the post, used for Facebook Opengraph & Twitter
-headline: Some headline       # Will appear in bold letters on top of the post
-modified: YYYY-MM-DD        # Date
-category: personal
-tags: []
-image: 
-  feature: some-image.jpg
+type:	video
+title: "A Post with a Video"
+description: "Custom written post descriptions are the way to go... if you're not lazy."
+category: videos
+tags: [sample post, video]
+video: http://www.youtube.com/watch?v=CQJByFp7H38
+imagefeature: picture-21.jpg
 comments: true
-mathjax:
+share: true
 ---
-## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+
+Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+
+{% highlight html %}
+<iframe width="940" height="529" src="//www.youtube.com/embed/CQJByFp7H38?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
+{% endhighlight %}
