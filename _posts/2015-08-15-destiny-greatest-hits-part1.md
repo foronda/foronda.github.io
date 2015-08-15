@@ -11,12 +11,20 @@ share: true
 
 ___
 
-### Destiny: PVP Control Crucible - High Score w/ Suros Regime
-	
+### PVP Control Crucible - High Score w/ Suros Regime
+
+> Video from January 2015, before the Suros Regime was nerfed.
+
+___
+
 <center><iframe width="940" height="529" src="//www.youtube.com/embed/TqLssEjFlaI?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></center>
 
 ___
 
-### Destiny: PVP Skirmish Crucible- Sniping with the Hawkmoon
+### PVP Skirmish Crucible - "Sniping" with the Hawkmoon
 
-<center><iframe width="940" height="529" src="//www.youtube.com/embed/rld97UeDm-stheme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></center>
+> Video fom March 2015, before players knew how to use other hand cannons other than the Thorn.
+
+___
+
+<center><iframe width="940" height="529" src="//www.youtube.com/embed/rld97UeDm-s?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></center>
