@@ -12,7 +12,7 @@ image:
 
 My name is **Brylian Foronda**, and this is my personal blog.  
 
-I am an alumni of the University of Hawaii at Manoa, with a Bachelors degree in Computer Engineering. I am currently a full-time IT Professional at the [Kaʻanapali Beach Hotel](http://kbhmaui.com) and a part-time Web Application Developer at the [Research Corporation at the University of Hawaii](http://www.rcuh.com/).
+I am an alumni of the University of Hawaii at Manoa, with a Bachelors degree in Computer Engineering. I am currently a full-time IT Manager at the [Kaʻanapali Beach Hotel](http://kbhmaui.com) and a part-time Web Application Developer at the [Research Corporation at the University of Hawaii](http://www.rcuh.com/).
 
 ### Academic Achievements
  - Associates degree in Electronics and Computer Engineering Technology from University of Hawaii Maui College
@@ -23,7 +23,6 @@ I am an alumni of the University of Hawaii at Manoa, with a Bachelors degree in 
  - Wordpress and MySQL
  - Postach.io and Evernote
  - Jekyll and Github Pages
-
 
 ___
 
