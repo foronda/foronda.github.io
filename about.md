@@ -18,6 +18,12 @@ I am a proud alumni of the University of Hawaii at Manoa with a Bachelors degree
  - Associates degree in Electronics and Computer Engineering Technology from University of Hawaii Maui College. (May 2009)
  - Bachelors degree in Computer Engineering from University of Hawaii at Manoa. (Dec. 2012)
 
+### IT Experience
+ - Microsoft Enterprise systems
+ - Server Virtualization
+ - Networking and Firewalls
+ - Data Recovery and Storage Area Networks
+ 
 ### Web Development Experience
  - ASP.NET Framework and SQL Server
  - Wordpress and MySQL
