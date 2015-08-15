@@ -4,7 +4,9 @@ title: "How to Move iTunes Backup Location"
 headline: Free up valuable SSD space on your C drive.
 description: Change iTunes backup location using Windows mklink junction command.
 categories: IT
-tags: how-to, itunes, windows
+tags: 
+  - how-to
+  - itunes
 published: true
 ---
 
@@ -19,10 +21,10 @@ Change the backup location of iTunes using Windows mklink junction command.
 2. Create the new folder location i.e (D: iTunes Backup)
 3. Run the junction command.
 
-``` batch
+```
 mklink /j current target
 ```
-``` batch
+```
 mklink /j "%appdata%\Apple Computer\MobileSync\Backup" "D:\iTunes Backup
 ```
 ----------

@@ -6,7 +6,7 @@ share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-#url:        	  http://hmfaysal.github.io
+#url:        	  http://brylianforonda.com
 
 # Owner/author information
 owner:
@@ -36,15 +36,16 @@ links:
     url: /
     external: false
     icon: home
+  - title: About
+    url: /about
   - title: Featured Posts
     url: /featured
   - title: Categories
     url: /categories
-  - title: About
-    url: /about
-  - title: Resume
+  - title: <i class="icon-book"></i> Resume
     url: http://resume.brylianforonda.com
     external: true
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pacific/Honolulu
@@ -55,7 +56,7 @@ paginate:    5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:year/:month/:title
 
 kramdown:
   auto_ids: true
@@ -73,7 +74,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
+  siteurl: 'http://brylianforonda.com/'
   relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
   media: 'images'
   metadata:
@@ -117,16 +118,16 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Engineering"
-              value: engineering
+            - name: "IT"
+              value: it
             - name: "Physics"
               value: physics
             - name: "Psychology"
               value: psychology
-            - name: "Interesting"
-              value: interesting
+            - name: "Travel"
+              value: travel
             - name: "Web-Development"
-              value: webdevelopment
+              value: webdev
           alterable: true
       - name: "tags"
         field:

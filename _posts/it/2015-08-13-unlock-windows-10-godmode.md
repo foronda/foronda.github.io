@@ -4,7 +4,9 @@ title: "How to Unlock Windows 10 'GodMode'"
 headline: GodMode!?
 description: Shortcut to a list of every configurable items in windows 10
 categories: IT
-tags: how-to, windows10
+tags: 
+  - how-to
+  - windows
 published: true
 ---
 
@@ -14,13 +16,13 @@ Found this article [^1] online regarding some 'GodMode' configuration in Windows
 
 ### Unlock God Mode You Ask?
 
-#### Step 1: Create a new folder on your desktop
+##### Step 1: Create a new folder on your desktop
 
-Right Click on Desktop > New folder (or CTRL + SHIFT + N).
+- Right Click on Desktop > New folder. You can also use the  ```CTRL+SHIFT+N``` keyboard shortcut to make a new folder.
 
-#### Step 2: Rename the folder.
+##### Step 2: Rename the folder.
 
-Name this folder the following, 
+- Name this folder the following, 
 
 ```
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
@@ -32,18 +34,21 @@ Actually, you can name the string before the **.** anything you want. For exampl
 HelloWorld.{ED7BA470-8E54-465E-825C-99712043E01C}
 ```
 
-Step 3: Open the new 'GodMode Shortcut'
+##### Step 3: Open the new 'GodMode Shortcut'
 
-The folder icon is replaced by an icon similar to a Control Panel icon immediately after renaming.
+- The folder icon is replaced by an icon similar to a Control Panel icon immediately after renaming.
 
 ![Desktop Folder](https://dl.dropboxusercontent.com/u/33327425/images/it/godmode.png)
 
-The list of configurable items that can be accessed in one 'GodMode' shortcut.
+- The list of configurable items that can be accessed in one 'GodMode' shortcut.
 
 ![Settings](https://dl.dropboxusercontent.com/u/33327425/images/it/godmode2.png)
 
 
-While this may be convenient shortcut, I do not see myself using it as a way of accessing windows configurations. Maybe because I have become accostumed to the  Win + Q, Win + X shortcuts in finding specifically what controls I need without the touch of the mouse. Given that I manage an Active Direcoty domain at work, I would rather have a working Windows RSAT tools. Microsoft, I am patiently waiting. Having to remote into the domain controller to manage AD objects and users is so "time consuming"! :) 
+While this may be convenient shortcut, I do not see myself using it as a way of accessing windows configurations. I have become accustumed to the Windows 8 Charms shortcuts (Win + Q, Win + X, etc..). With it, I can immediately access specific control without a touch of the mouse. 
+
+With Windows 10 being out for a couple of weeks now and given my role as an IT Manager, a 'hack' or tool that I would rather have is a working Remote Server Administration Tool for Windows 
+10! Microsoft, I am patiently waiting - having to remote into the domain controller to manage AD objects and users is so "time consuming"! :P
 
 ##### References:
 
