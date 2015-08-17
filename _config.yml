@@ -42,8 +42,8 @@ links:
     url: /featured
   - title: Categories
     url: /categories
-  - title: <i class="icon-book"></i> Resume
-    url: http://resume.brylianforonda.com
+  - title: <i class="fa-file-text"></i> Resume
+    url: http://brylianforonda.com/resume
     external: true
 
 
