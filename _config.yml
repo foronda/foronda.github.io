@@ -75,7 +75,7 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'http://brylianforonda.com/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  relativeLinks: 'http://brylianforonda.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
