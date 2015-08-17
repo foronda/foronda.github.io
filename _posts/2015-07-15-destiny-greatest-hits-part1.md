@@ -22,6 +22,7 @@ ___
 ### PVP Trials of Osiris - Comeback Kings
 
 > Video from June 2015. Down 3-0!? No problem!
+
 ___
 
 <center><iframe width="940" height="529" src="//www.youtube.com/embed/gRCqopV3Sq8?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></center>
