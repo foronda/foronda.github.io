@@ -120,8 +120,8 @@ var $tree = $('#treeview12').treeview({
             });
 {% endhighlight %}
 
+----------
 
----
+###References:
 
-> References
 1. https://github.com/jonmiles/bootstrap-treeview
