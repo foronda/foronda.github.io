@@ -19,11 +19,13 @@ I am a proud alumni of the University of Hawaii at Manoa with a Bachelors degree
  - Bachelors degree in Computer Engineering from University of Hawaii at Manoa. (Dec. 2012)
 
 ### IT Experience
- - Microsoft Enterprise Systems
- - Server Virtualization (VmWare, Hyper-V)
- - Network and Firewall Security
- - Disaster Recovery
- - Storage Area Networks
+ - Microsoft Enterprise Systems (AD, Exchange, Server OS, )
+ - Server Virtualization (VMware 5.5, Hyper-V 2012)
+ - Switching, Routing, Firewall Security (Sonicwall, Juniper, Dell)
+ - Network Design and Implementation
+ - Property Management Systems (SMS Host, SMS Touch, SMS Retail OS)
+ - Disaster Recovery and Backups (Symantec Backup Exec, Veeam)
+ - Storage Area Networks (Nimble, QNAP)
 
 ### Web Development Experience
  - ASP.NET Framework and SQL Server
@@ -32,7 +34,6 @@ I am a proud alumni of the University of Hawaii at Manoa with a Bachelors degree
  - Wordpress and MySQL
  - Postach.io and Evernote
  - MongoDB and PHP
-
 ___
 
  > It’s not that I’m so smart, it’s just that I stay with problems longer. 
