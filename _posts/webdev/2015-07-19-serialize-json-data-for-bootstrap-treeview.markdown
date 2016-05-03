@@ -24,7 +24,7 @@ using Newtonsoft.Json;
 {% endhighlight %}
 
 #### Object Class Instances
-{% highlight csharp %}
+<code>
 public class ParentWithNoChild
 {
     public string text { get; set; }
@@ -59,7 +59,7 @@ public static class ExtensionMethods
             return str + "," + strTwo;
     }
 }
-{% endhighlight %}
+</code>
 
 #### Code behind method
 {% highlight csharp %}
