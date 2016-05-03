@@ -10,10 +10,10 @@ tags:
 published: true
 ---
 
-###Problem: 
+####Problem: 
 Operating system (C:) drive running out of space due to iTunes backup.This is very useful if your OS runs on SSD (which is common today) to save valuable space.
 
-###Solution: 
+####Solution: 
 Change the backup location of iTunes using Windows mklink junction command.
 
 ###Procedure:
@@ -26,7 +26,7 @@ mklink /j "%appdata%\Apple Computer\MobileSync\Backup" "D:\iTunes Backup
 ```
 ----------
 
-###References:
+####References:
 
 1. http://www.howtogeek.com/164275/how-to-change-the-backup-location-of-itunes-or-any-windows-app/
 2. http://social.technet.microsoft.com/Forums/en-US/8700d04f-45b6-45db-bab5-48bd86a69e18/mklink-error-the-syntax-of-the-command-is-incorrect?forum=w8itprogeneral
