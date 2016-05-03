@@ -16,15 +16,15 @@ published: true
 Dynamically populate the <a href="https://github.com/jonmiles/bootstrap-treeview">bootstrap-treeview</a> data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind. The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
 
 #### Required Namespaces
-{% highlight csharp %}
+~~~ c-sharp
 using System.Runtime.Serialization.Json;
 using System.IO;
 using System.Text;
 using Newtonsoft.Json;
-{% endhighlight %}
+~~~
 
 #### Object Class Instances
-<code>
+~~~ c-sharp
 public class ParentWithNoChild
 {
     public string text { get; set; }
@@ -40,11 +40,11 @@ public class Child
 {
     public string text { get; set; }
 }
-{% endhighlight %}
+~~~
 
 #### ExtensionMethods
 Extension methods used to simplify formatting of final JSON data format of bootstrap-treeview
-{% highlight csharp %}
+~~~ c-sharp
 public static class ExtensionMethods
 {
     public static string GetTreeViewJsonFormat(this string str)
@@ -59,11 +59,10 @@ public static class ExtensionMethods
             return str + "," + strTwo;
     }
 }
-</code>
+~~~
 
 #### Code behind method
-{% highlight csharp %}
-
+~~~ c-sharp
 public string GetJsonData()
 {
     string serializeJsonData = string.Empty;  
@@ -110,15 +109,15 @@ public string GetJsonData()
     }
     return serializeJsonData.GetTreeViewJsonFormat();
 }
-{% endhighlight %}
+~~~
 
 #### Javascritp function call.
 The Javascript function call which parses the serialized json string back to JSON format.
-{% highlight javascript %}
+~~~ javascript
 var $tree = $('#treeview12').treeview({
                 data: jQuery.parseJSON('<%=GetJsonData() %>')
             });
-{% endhighlight %}
+~~~
 
 ----------
 
