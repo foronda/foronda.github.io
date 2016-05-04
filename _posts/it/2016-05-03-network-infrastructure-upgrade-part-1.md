@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Network Infrastructure Upgrade Part 1 - 2-Tier Hierarchical Design"
+title: "Network Infrastructure Upgrade Part 1 - Overview"
 headline: "Redesign of flat network to 2-Tier Hierarchical Design"
 description: 
 categories: 
@@ -15,9 +15,11 @@ comments: false
 ---
 
 ### Overview
-Network security is crucial to all network infrastructures, no matter its size. In any any company that process, store or transmit credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. This project focuses on the redesign of the current network infrastructure utilizing unmanaged switches to managed switches. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will give us a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
+
+Network security is crucial to all network infrastructures, no matter its size. In any company that process, store or transmit credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. This project focuses on the redesign of the current network infrastructure utilizing unmanaged switches to managed switches. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will give us a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
 
 ### Network Infrastructure Upgrade Design Goals and Requirements
+
 - PCI Compliance
     - Scope reduction through logical network segmentation.
     - Isolate senstive traffic and control behavior of traffic.
@@ -35,7 +37,9 @@ Network security is crucial to all network infrastructures, no matter its size. 
 - Achieve industry network standardization.
 
 ### Proposed Solution
-##### Juniper Two-tier hierarchical network model
+
+#### Juniper Two-tier hierarchical network model
+
 - Features
     - Redundant and resilient design with Two-tier hierarchical network model utlizing Virtual Chassis and Link Aggregation.
     - Maintenance without losing connection to datacenter. 
@@ -44,16 +48,19 @@ Network security is crucial to all network infrastructures, no matter its size. 
     - Established switch manufacturer with Junos operating system and virtual chassis along with centralized management. Comparable to Cisco and HP with network standards and technologies.
 
 ### Implementation Phases
-##### 1. Network Redesign
+
+#### I. Network Redesign
  - Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
  - Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
  - Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
  
-##### 2. Network Standardization and Documentation
+#### II. Network Standardization and Documentation
+
 - Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
 
-##### 3. Core Switch Configurations
+#### III. Core Switch Configurations
+
 - Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
 - VLAN trunking to Sonicwall 
 
-##### 4. Access Switch Configurations
+#### IV. Access Switch Configurations
