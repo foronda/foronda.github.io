@@ -59,6 +59,10 @@ Network security is crucial to all network infrastructures, no matter its size. 
 
 - Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
 
+#### III. Understand and Research Junos OS 
+
+- Research security best practices and implementation of Juniper networking hardware. 
+
 #### III. Core Switch Configurations
 
 - Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
