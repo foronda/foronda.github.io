@@ -16,7 +16,7 @@ comments: false
 
 ### Overview
 
-Network security is crucial to all network infrastructures, no matter its size. In any company that process, store or transmit credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. This project focuses on the redesign of the current network infrastructure utilizing unmanaged switches to managed switches. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will give us a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
+Network security is crucial to all network infrastructures, no matter its size. In any company that *process*, *store* or *transmit* credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. This project focuses on the redesign of the current network infrastructure utilizing unmanaged switches to managed switches. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will give us a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
 
 ### Network Infrastructure Upgrade Design Goals and Requirements
 
@@ -50,17 +50,17 @@ Network security is crucial to all network infrastructures, no matter its size. 
 ### Implementation Phases
 
 #### I. Network Redesign
- - Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
- - Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
- - Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
+    - Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
+    - Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
+    - Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
  
 #### II. Network Standardization and Documentation
 
-- Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
+    - Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
 
 #### III. Core Switch Configurations
 
-- Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
-- VLAN trunking to Sonicwall 
+    - Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
+    - VLAN trunking to Sonicwall 
 
 #### IV. Access Switch Configurations
