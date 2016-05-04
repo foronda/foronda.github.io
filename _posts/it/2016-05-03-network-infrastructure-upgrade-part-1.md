@@ -50,17 +50,18 @@ Network security is crucial to all network infrastructures, no matter its size. 
 ### Implementation Phases
 
 #### I. Network Redesign
-    - Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
-    - Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
-    - Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
+
+- Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
+- Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
+- Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
  
 #### II. Network Standardization and Documentation
 
-    - Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
+- Establish network cable naming and labelin standards to easily identify switch port connections, uplinks, and network traffic type.
 
 #### III. Core Switch Configurations
 
-    - Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
-    - VLAN trunking to Sonicwall 
+- Implementation of Juniper virtual vhassis, link aggregation, VLANs, inter-vlan routing, DHCP-relay, stateless firewall filters, switch and port security.
+- VLAN trunking to Firewall for DMZ and Guest related traffic.
 
 #### IV. Access Switch Configurations
