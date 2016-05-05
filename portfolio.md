@@ -4,9 +4,12 @@ permalink: /portfolio/index.html
 title: WORK PORTFOLIO
 tags: [brylian, foronda, webdev, it]
 ---
-<div class="align-center">[Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview)</div>
 
 
+
+<div class="align-center">
+	<a href="http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview">Juniper Network Infrastructure Upgrade</a>
+</div>
 
 ![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
 
