@@ -5,25 +5,17 @@ title: WORK PORTFOLIO
 tags: [brylian, foronda, webdev, it]
 ---
 
-<table style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-</table>
+### [Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview)
 
+![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
 
-| [Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview) | [Interagency Rapid Notification System]() | [Pest Report Access Tool]() |
-| ------------------------------------------------- | ---------------------------------------------- | ---------------------------|
-| ![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png) | <img src="https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif" alt="" style="width:800px;height:600px;"> | <img src="https://dl.dropboxusercontent.com/u/33327425/images/webdev/PRAT_Widget_Metro.png" alt="" style="width:800px;height:600px;">
+### [Interagency Rapid Notification System]()
+
+<img src="https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif" alt="" style="width:600px;height:400px;">
+
+### [Pest Report Access Tool]()
+
+<img src="https://dl.dropboxusercontent.com/u/33327425/images/webdev/PRAT_Widget_Metro.png" alt="" style="width:800px;height:400px;">
 
  > It’s not that I’m so smart, it’s just that I stay with problems longer. 
 <cite>Albert Einstein</cite>
