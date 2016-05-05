@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Network Infrastructure Upgrade Part 1 - Overview"
+title: "Network Infrastructure Upgrade - Overview"
 headline: "Redesign of flat network to 2-Tier Hierarchical Design"
 description: 
 categories: 
@@ -16,7 +16,7 @@ comments: false
 
 ### Overview
 
-Network security is crucial to all network infrastructures, no matter its size. In any company that *process*, *store* or *transmit* credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. This project focuses on the redesign of the current network infrastructure utilizing unmanaged switches to managed switches. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will give us a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
+Network security is crucial to all network infrastructures, especially in businesses who store sensitive information such as personally identifiable information, credit card numbers, medical health records, etc. As stated by the PCI coucil, any company that *process*, *store* or *transmit* credit card information, there are compliancy requirements that must be met to avoid out of compliancy penalties and fines. However, instead of focusing on the checklist compliancy requirements, this project aims towards reducing overall scope and securing the infrastructure beyond PCI compliance. This project is a complete overhaul of the current network infrastructure utilizing unmanaged switches, and transitioning to managed switches to achieve the infrastructure needs. Managed switches provides all features of an unmanaged switch but provides the ability to configure, manage, and monitor the local area network. The upgrade to managed switches will provide a greater control over how data travels over the network and who has access to it; increasing overall network security to achieve PCI compliance across the network.
 
 ### Network Infrastructure Upgrade Design Goals and Requirements
 
@@ -51,6 +51,7 @@ Network security is crucial to all network infrastructures, no matter its size. 
 
 #### I. Network Redesign
 
+- Design new network infrastructure to meet goals and requirements.
 - Understand traffic types within the infrastructure, implement segmentation and ACL's for sensitive traffic types.
 - Run new and additional Cat6 cabling to eliminate daisy chained switches and single point of failures. 
 - Create VLANs for the different traffic types. Allocate IP ranges for these VLANs.
@@ -69,3 +70,6 @@ Network security is crucial to all network infrastructures, no matter its size. 
 - VLAN trunking to Firewall for DMZ and Guest related traffic.
 
 #### IV. Access Switch Configurations
+
+- Create standard security template for access switches. 
+- 
