@@ -4,16 +4,17 @@ permalink: /portfolio/index.html
 title: WORK PORTFOLIO
 tags: [brylian, foronda, webdev, it]
 ---
+<div class="align-center">[Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview)</div>
 
-### [Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview)
+
 
 ![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
 
-### [Interagency Rapid Notification System]()
+#### [Interagency Rapid Notification System]()
 
 <img src="https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif" alt="" style="width:600px;height:400px;">
 
-### [Pest Report Access Tool]()
+#### [Pest Report Access Tool]()
 
 <img src="https://dl.dropboxusercontent.com/u/33327425/images/webdev/PRAT_Widget_Metro.png" alt="" style="width:800px;height:400px;">
 
