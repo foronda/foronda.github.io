@@ -6,8 +6,8 @@ tags: [brylian, foronda, webdev, it]
 ---
 
 [Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview) | [Interagency Rapid Notification System]()
-
-![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png) | ![](https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif)
+------------------------------------------------- | ----------------------------------------------
+![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png) | ![](https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif = 250x250)
 
  > It’s not that I’m so smart, it’s just that I stay with problems longer. 
 <cite>Albert Einstein</cite>
