@@ -13,11 +13,11 @@ Below are some of my work projects that I have completed and worked on over the 
 
 #### [Interagency Rapid Notification System]()
 
-<img src="https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif" alt="" style="width:600px;height:400px;">
+<img src="https://dl.dropboxusercontent.com/u/33327425/images/irns/IRNS_Notification_1.gif" alt="" style="width:600px;height:600px;">
 
 #### [Pest Report Access Tool]()
 
-<img src="https://dl.dropboxusercontent.com/u/33327425/images/webdev/PRAT_Widget_Metro.png" alt="" style="width:800px;height:400px;">
+<img src="https://dl.dropboxusercontent.com/u/33327425/images/webdev/PRAT_Widget_Metro.png" alt="" style="width:800px;height:600px;">
 
  > It’s not that I’m so smart, it’s just that I stay with problems longer. 
 <cite>Albert Einstein</cite>
