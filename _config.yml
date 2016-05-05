@@ -40,6 +40,10 @@ links:
     url: /about
   - title: Featured Posts
     url: /featured
+  - title: Featured Posts
+    url: /portfolio
+    -title: Network Infrastructure Upgrade
+    url: /network-infrastructure-upgrade
   - title: Categories
     url: /categories
   - title: <i class="fa-file-text"></i> Resume
