@@ -40,12 +40,10 @@ links:
     url: /about
   - title: Featured Posts
     url: /featured
-  - title: Portfolio
-    url: /portfolio
-    -title: Network Infrastructure Upgrade
-    url: /network-infrastructure-upgrade
   - title: Categories
     url: /categories
+  - title: Portfolio
+    url: /portfolio
   - title: <i class="fa-file-text"></i> Resume
     url: http://brylianforonda.com/resume
     external: true
