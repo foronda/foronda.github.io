@@ -5,7 +5,7 @@ headline: "Redesign of flat network to 2-Tier Hierarchical Design"
 description: 
 categories: 
   - IT
-tags: "it, network-design, juniper, vlans, switching, routing"
+tags: "it,network-design,juniper,vlans,switching,routing"
 published: true
 modified: ""
 imagefeature: ""
