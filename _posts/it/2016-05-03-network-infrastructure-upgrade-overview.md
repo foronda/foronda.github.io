@@ -47,7 +47,7 @@ Network security is crucial to all network infrastructures, especially in busine
     - Separate control and data plane to restart processes without full reboot. 
     - Established switch manufacturer with Junos operating system and virtual chassis along with centralized management. Comparable to Cisco and HP with network standards and technologies.
 
-<center> *Two-tier Network Model (Collapsed Core and Distribution Layer)* </center>
+<center> <b><u>Two-tier Network Model (Collapsed Core and Distribution Layer)</u></b> </center>
 
 ![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
 
