@@ -40,16 +40,15 @@ Network security is crucial to all network infrastructures, especially in busine
 
 #### Juniper Two-tier hierarchical network model
 
-- Two-tier Network Model (Collapsed Core and Distribution Layer)
-
-![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
-
 - Features
     - Redundant and resilient design with Two-tier hierarchical network model utlizing Virtual Chassis and Link Aggregation.
     - Maintenance without losing connection to datacenter. 
     - Easy rollback feature in case of misconfiguration. 
     - Separate control and data plane to restart processes without full reboot. 
     - Established switch manufacturer with Junos operating system and virtual chassis along with centralized management. Comparable to Cisco and HP with network standards and technologies.
+
+![2-Tier Network Model](https://dl.dropboxusercontent.com/u/33327425/images/it/2-Tier_Network_Design.png)
+*Two-tier Network Model (Collapsed Core and Distribution Layer)*
 
 ### Implementation Phases
 
