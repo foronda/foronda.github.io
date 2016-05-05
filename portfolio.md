@@ -5,6 +5,21 @@ title: WORK PORTFOLIO
 tags: [brylian, foronda, webdev, it]
 ---
 
+<table style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
 
 | [Juniper Network Infrastructure Upgrade](http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview) | [Interagency Rapid Notification System]() | [Pest Report Access Tool]() |
 | ------------------------------------------------- | ---------------------------------------------- | ---------------------------|
