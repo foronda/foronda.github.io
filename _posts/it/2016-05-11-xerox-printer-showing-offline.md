@@ -21,15 +21,15 @@ Uncheck SNMP Status Enabled under Port Configuration
 
 ### Procedure:
 
-- Right Click Printer > Properties > Ports
+- Right Click *Printer* > *Properties* > *Ports*
 
 ![Xerox Ports](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_1.png)
 
-- Select the port associated with the printer  > Configure Port
+- Select the port associated with the printer  > *Configure Port*
 
 ![Configure Ports](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_2.png)
 
-- Under Port Settings > Untick SNMP Status Enabled > OK > Close
+- Under *Port Settings* > Untick *SNMP Status Enabled* > *OK* > *Close*
 
 ![SNMP](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_3.png)
 
