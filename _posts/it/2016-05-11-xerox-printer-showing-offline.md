@@ -13,13 +13,23 @@ published: true
 ### Problem: 
 You are able to ping printer and access printer via web browser. However, printer shows Offline on the printer server.
 
+![Desktop Folder](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline.png)
+
 ### Solution: 
 Uncheck SNMP Status Enabled under Port Configuration
 
 ### Procedure:
 1. Right Click Printer > Properties > Ports
+
+![Desktop Folder](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_1.png)
+
 2. Select the port associated with the printer  > Configure Port
+
+![Desktop Folder](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_2.png)
+
 3. Under Port Settings > Untick SNMP Status Enabled > OK > Close
+
+![Desktop Folder](https://dl.dropboxusercontent.com/u/33327425/images/it/xerox_offline_3.png)
 
 
 ----------
