@@ -10,7 +10,7 @@ published: true
 modified: ""
 imagefeature: ""
 mathjax: false
-featured: false
+featured: true
 comments: false
 ---
 
