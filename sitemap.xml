@@ -1,16 +1,61 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for link in site.links %}{% if link.external %}{% else %} 
-    <url>
-        <loc>{{ site.url }}{{ link.url }}</loc>
-    </url>{% endif %}{% endfor %}
-    
-    {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-    </url>
-    {% endfor %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://brylianforonda.com/</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/about/</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/featured/</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/categories/</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/portfolio/</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/resume/</loc>
+  <lastmod>2015-08-17T11:06:10+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/it/2016/05/network-infrastructure-upgrade-overview</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/categories/index.html</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/it/2015/08/unlock-windows-10-godmode</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/webdev/2015/07/serialize-json-data-for-bootstrap-treeview</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/it/2015/07/moving-itunes-backup-location</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/videos/2015/07/destiny-greatest-hits-part1</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://brylianforonda.com/tags/index.html</loc>
+  <lastmod>2016-05-05T21:38:56+00:00</lastmod>
+</url>
 </urlset>
