@@ -23,7 +23,7 @@ featured: true
 
 ### Overview
 
-After Juniper Core switch configurations and network testing. The next step is to initiate migration of servers and workstations onto the new VLAN subnet. This document covers migrating the current Windows Server 2012 Failover Cluster with a File Server role onto a new subnet or network.  The File server cluster infrastructure utilizes two VM file server nodes with VMware 3-Node clustering with vDS VLAN networking in place. 
+After the extensive Juniper Core switch designs, configurations and network testing. The next step is to initiate migration of servers and workstations onto the new VLAN subnet. This document covers migrating the current Windows Server 2012 Failover Cluster with a File Server role onto a new subnet or network.  The File server cluster infrastructure utilizes two VM file server nodes with VMware 3-Node clustering with vDS VLAN networking in place. 
 
 ![File Server Cluster Design](https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs0.png)
 
@@ -69,7 +69,7 @@ After Juniper Core switch configurations and network testing. The next step is t
 - Allow Cluster Network Communication and Allow clients to connect through this network.
 	- Launch Failover Cluster Manager > **Networks**. Right Click on new network > **Properties**
 		<figure class="first">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs9.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs9a.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
 	- Check the radio button *Allow cluster network communication in this network*. Check the box *Allow clients to connect through this network*.
 		<figure class="first">
@@ -78,10 +78,13 @@ After Juniper Core switch configurations and network testing. The next step is t
 - Add New IP Address to the File Server Role
 	- Click **Roles** > **Resources** > Right Click **Name** > **Properties**
 		<figure class="first">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs10.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs9.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
 	- Click **Add**. Select the new network and assign the file server role a static IP address. 
-		<figure class="second">
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs10.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+		<figure class="first">
 			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs11.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
 		<figure class="first">
@@ -94,8 +97,57 @@ After Juniper Core switch configurations and network testing. The next step is t
 		</figure>
 
 ##### Step 4. Switchover File Server Role to New Network
-- Under Roles > File Server > Server Name. Right click Old Network > Take Offline.
+- Take Old IP Address Binding Offline
+	- Under **Roles** > **File Server** > Server Name. Right click Old Network > **Take Offline**.
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs15.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+- Monitor role and verify that the file server role status remains running
+	<figure class="first">
+		<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs16.png" style="padding-bottom: 5px; border:1px solid gray">
+	</figure>
+- Remove Old Network Binding From File Server Role
+	- Right Click IP Address > **Remove**. Select **Yes** when prompted to remove IP Address
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs17a.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs17b.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+- Launch DNS Manager and reload DNS. Verify that the old IP address binding to the file server role instance has been removed from the server.
+	- ``` nslookup filesvr ```
+	<figure class="first">
+		<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs18a.png" style="padding-bottom: 5px; border:1px solid gray">
+	</figure>
+	<figure class="first">
+		<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs18b.png" style="padding-bottom: 5px; border:1px solid gray">
+	</figure>
 
+##### Step 5. Switchover Failover Cluster IP Address to New Network
+- Add New IP Address to the Failover Cluster Role
+	- Under Failover Cluster Manager > Select Cluster. Under Cluster Core Resources > Right Click Cluster Name > Properties
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs19.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Under Properties > Add. Select the correct network adapter and assign it a static IP address > OK
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs10.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs11.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs12.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Ensure the Publish PTR Records is selected > Apply. Click Yes to Confirm
+		<figure class="second">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs13.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs14.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Similar to Adding IP New networks to File Server Role, verify that both IP address shows online. Also ensure that the newly added IP address has been binded to DNS.
+- Remove Old Network Binding From Failover Cluster 
+	- Right Click Old IP Address > Take Offline
+	- Reload DNS and Verify that the old IP address DNS binding has been removed.
 
 
 
