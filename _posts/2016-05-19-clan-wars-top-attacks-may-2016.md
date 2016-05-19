@@ -11,7 +11,7 @@ published: true
 headline: ""
 modified: ""
 categories: null
-imagefeature: ""
+imagefeature: "coc.jpg"
 mathjax: false
 featured: false
 ---
