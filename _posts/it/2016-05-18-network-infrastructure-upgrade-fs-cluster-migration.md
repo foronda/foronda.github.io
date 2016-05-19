@@ -8,7 +8,7 @@ tags:
   - how-to
   - network-infrastructure-upgrade
 published: true
-
+featured: true
 ---
 
 <section id="table-of-contents" class="toc">
