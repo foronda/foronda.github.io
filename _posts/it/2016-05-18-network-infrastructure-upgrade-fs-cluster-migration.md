@@ -9,6 +9,7 @@ tags:
   - network-infrastructure-upgrade
 published: true
 featured: true
+imagefeature: ctrl.jpeg
 ---
 
 <section id="table-of-contents" class="toc">
@@ -125,29 +126,61 @@ After the extensive Juniper Core switch designs, configurations and network test
 
 ##### Step 5. Switchover Failover Cluster IP Address to New Network
 - Add New IP Address to the Failover Cluster Role
-	- Under Failover Cluster Manager > Select Cluster. Under Cluster Core Resources > Right Click Cluster Name > Properties
+	- Under Failover Cluster Manager > Select Cluster. Under **Cluster Core Resources** > Right Click **Cluster Name** > **Properties**
 		<figure class="first">
 			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs19.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
-	- Under Properties > Add. Select the correct network adapter and assign it a static IP address > OK
+	- Under **Properties** > **Add**. Select the correct network adapter and assign it a static IP address > **OK**
 		<figure class="first">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs10.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs20.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Ensure the Publish PTR Records is selected > **Apply**. Click **Yes** to Confirm
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs21.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
 		<figure class="first">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs11.png" style="padding-bottom: 5px; border:1px solid gray">
-		</figure>
-		<figure class="first">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs12.png" style="padding-bottom: 5px; border:1px solid gray">
-		</figure>
-	- Ensure the Publish PTR Records is selected > Apply. Click Yes to Confirm
-		<figure class="second">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs13.png" style="padding-bottom: 5px; border:1px solid gray">
-			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs14.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs21b.png" style="padding-bottom: 5px; border:1px solid gray">
 		</figure>
 	- Similar to Adding IP New networks to File Server Role, verify that both IP address shows online. Also ensure that the newly added IP address has been binded to DNS.
+		<figure class="second">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs22a.png" style="padding-bottom: 5px; border:1px solid gray">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs22b.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
 - Remove Old Network Binding From Failover Cluster 
-	- Right Click Old IP Address > Take Offline
-	- Reload DNS and Verify that the old IP address DNS binding has been removed.
+	- Right Click Old IP Address > **Take Offline**
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs23.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Launch DNS Manager and reload DNS. Verify that the old IP address DNS binding has been removed.
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs24.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Right Clik Old IP Address > **More Actions** > **Remove**
+
+##### Step 6. Test Live Failover
+- Launch Remote Desktop with access to file server shares.
+	- Open a file on the shared drive.
+	- Monitor Desktop Icons (User profile desktop directory is also shared on our file server cluster)
+- Initiate Live Failover
+	- Launch File Server Cluster Manager >**Nodes** > Select the active node > **Pause** > **Drain Roles**
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs25.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+	- Verify that there are no disconnection in file share connections and that the file server role has been migrated to the second node.
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs26.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+- Initiate Live Failback by draining roles and monitor file shares.
+	- Launch File Server Cluster Manager > **Nodes** > Select the paused node > **Resume** > **Fail Roles Back**
+	- Verify that there are no disconnection in file share connections and that the file server role has been migrated back to the first node.
+ 		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs27a.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+		<figure class="first">
+			<img src="https://dl.dropboxusercontent.com/u/33327425/images/it/network-infrastructure-upgrade/file-server-cluster/fs27b.png" style="padding-bottom: 5px; border:1px solid gray">
+		</figure>
+
+
 
 
 
